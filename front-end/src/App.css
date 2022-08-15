@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  position: absolute;
+  background-color: rgb(21, 39, 78);
+  color:rgb(255, 255, 255);
+  width: 100vw;
+  padding: 1rem 0;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.header .titulo {
+  justify-content: center;
+  display: flex;
+  font-size: 1.8rem;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  margin-top: 6rem;
+  border: 1px solid #ccc;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  width: 80vw;
+}
+
+th {
+  background-color: rgb(241, 241, 241);
+}
+
+td {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+th, td {
+  padding: 0.5rem;
+}
+
+button {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 2px;
+}
+
+.titulo-botoes {
+  width: 5rem;
+}
+
+.botoes {
+  display:flex;
+  justify-content: center;
+}
+
+.insert {
+  background-color: rgb(60, 209, 60);
+  color: green;
+  font-size: 1.25rem;
+}
+
+.insert:hover {
+  background-color: rgb(54, 175, 54);
+}
+
+.edit {
+  background-color: rgb(248, 248, 153);
+  color: rgb(163, 163, 11);
+  margin-right: 0.4rem;
+}
+
+.modal {
+  background-color: #f4f4f4;
+  color: #160408;
+  border-radius: 15px;
+  padding: 1rem;
+
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+  width: 50vw;
+}
+
+.edit:hover {
+  background-color: rgb(187, 187, 47);
+}
+
+.delete {
+  background-color: rgb(250, 121, 121);
+  color: rgb(131, 18, 18);
+}
+
+.delete:hover {
+  background-color: rgb(141, 31, 31);
+}
+
+.save {
+  background-color: rgb(49, 94, 151);
+  color: rgb(215, 227, 243);
+}
+
+.save:hover {
+  background-color: rgb(23, 41, 65);
+}
+
+.fundo-modal {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal .titulo {
+  margin-bottom: 0.75rem;
+  font-size: 1.3rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.modal .conteudo input {
+  width: 100%;
+  margin-bottom: 0.8rem;
+  height: 2rem;
+  padding: 0.75rem;
+  border: 1px solid rgb(199, 199, 199);
+  border-radius: 4px;
+  margin-top: 0.2rem;
+}
+
+.modal .acao {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  font-size: 0.75rem;
+}
+
+.modal .acao span {
+  color: red;
+}
+
+.modal .acao button {
+  width: auto;
+  margin-top: 0.5rem;
+}
